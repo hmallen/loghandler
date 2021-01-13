@@ -1,0 +1,8 @@
+README.md
+setup.py
+loghandler/__init__.py
+loghandler/loghandler.py
+loghandler.egg-info/PKG-INFO
+loghandler.egg-info/SOURCES.txt
+loghandler.egg-info/dependency_links.txt
+loghandler.egg-info/top_level.txt
