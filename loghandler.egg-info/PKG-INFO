@@ -1,13 +1,21 @@
 Metadata-Version: 2.1
 Name: loghandler
-Version: 0.0.1
+Version: 0.0.2
 Summary: Logging setup with stream and file handlers
 Home-page: https://github.com/hmallen/loghandler
 Author: Hunter Allen
 Author-email: allenhm@gmail.com
 License: UNKNOWN
 Description: # loghandler
-        Shortcut for setup of simultaneous stream and file handlers with custom formatting in Python logging
+        
+        Shortcut for setup of simultaneous stream and file handlers with custom formatting in Python logging.
+        
+        ```python
+        import loghandler
+        
+        logger = loghandler.create_logger("my_logger")
+        logger.info("Here's a message!")
+        ```
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
